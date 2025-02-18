@@ -1,0 +1,175 @@
+
+
+body {
+    background-color: #050A0E;
+}
+
+
+.cabecalho{
+    background-color: #00F0FF ;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.cabecalho ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0 2%;
+}
+
+.cabecalho a{
+    color: #050A0E;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+}
+
+.wagner{
+    width: 15%;
+    border: 5px solid #00F0FF;
+    border-radius: 50%;
+    margin: 5% 20% 0 0;
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sobre0{
+    font-family: 'outfit', serif;
+    margin: auto;
+    text-align: center;
+    color: #00F0FF;
+    margin-top: 11%;
+}
+
+p{
+    color: #00F0FF;
+    font-family: 'Source Code Pro', serif;
+    font-weight: 500;
+    text-align: center;
+    margin: 1% 0 0 0;
+    
+}
+
+section{
+    justify-items: center;
+}
+
+#sobre{
+    font-family: 'Poppins', serif;
+    color: #050A0E;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15% 0 0 0;
+    text-align: center;
+    background-color: #00F0FF;
+    width: 10%;
+    border-radius: 10px;
+}
+
+#sub-projetos {
+    font-family: 'Poppins', serif;
+    color: #050A0E;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    margin: 5% 0 3% 45%;
+    background-color: #00F0FF;
+    width: 10%;
+    border-radius: 10px;
+}
+
+.projeto1{
+    height: 350px;
+    width: 300px;
+    background-color: #050A0E;
+    border-radius: 5%;
+    border: 2px solid #00F0FF;
+    padding: 1%;
+}
+
+.valorant1 {
+    width: 90%;
+    border-radius: 5%;
+    margin-left: 5%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: -1% 20%
+}
+
+.nomeprojeto1 {
+    text-align: center;
+    font-family: 'VALORANT', sans-serif;
+    color: #edffff;
+}
+
+.projeto1desc{
+    font-family: 'Source Code Pro', serif;
+    text-align: justify;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+}
+
+.projeto1 a{
+    font-family: 'Source Code Pro', serif;
+    margin: 0% 0 10% 29%;
+    border: 2px solid #00F0FF;
+    color: #00F0FF;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.projeto1 a:hover{
+    background-color: #00F0FF;
+    cursor: pointer;
+    color:#050A0E
+    
+}
+
+.projeto2 {
+    height: 350px;
+    width: 300px;
+    background-color: #050A0E;
+    border-radius: 5%;
+    border: 2px solid #00F0FF;
+    padding: 1%;
+}
+
+.projeto3 {
+    height: 350px;
+    width: 300px;
+    background-color: #050A0E;
+    border-radius: 5%;
+    border: 2px solid #00F0FF;
+    padding: 1%;
+}
+
+footer{
+    margin-top: 5%;
+    background-color:#00B7C6;
+    padding: 1%;
+    text-align:center;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.github{
+    width: 24px;
+    height: 24px;
+}
+
