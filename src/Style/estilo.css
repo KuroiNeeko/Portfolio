@@ -48,12 +48,17 @@ body {
     margin-top: 11%;
 }
 
-p{
+#sobre .projeto1 p{
+    text-align: center
+    
+}
+
+.sobre1{
     color: #00F0FF;
     font-family: 'Source Code Pro', serif;
     font-weight: 500;
     text-align: center;
-    margin: 1% 0 0 0;
+    margin: 40px 300px;
     
 }
 
@@ -79,7 +84,7 @@ section{
     font-weight: 700;
     font-size: 20px;
     text-align: center;
-    margin: 5% 0 3% 45%;
+    margin: 8% 0 4% 45%;
     background-color: #00F0FF;
     width: 10%;
     border-radius: 10px;
@@ -108,15 +113,23 @@ section{
 
 .nomeprojeto1 {
     text-align: center;
-    font-family: 'VALORANT', sans-serif;
-    color: #edffff;
+    font-family: 'Source Code Pro', serif;
+    color: #00F0FF;
+    margin-bottom: 5px;
+}
+
+.nomeprojeto2, .nomeprojeto3{
+    text-align: center;
+    font-family: 'Source Code Pro', serif;
+    color: #00F0FF;
 }
 
 .projeto1desc{
     font-family: 'Source Code Pro', serif;
     text-align: justify;
-    margin: 5px 0 20px 0;
+    margin: 5px 5px 20px 5px;
     font-size: 15px;
+    color: #00F0FF;
 }
 
 .projeto1 a{
@@ -165,7 +178,19 @@ footer{
 footer ul{
     display: flex;
     list-style-type: none;
-    gap: 5px;
+    justify-content: center;
+    gap: 200px;
+}
+
+footer a{
+    color: #050A0E;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+}
+
+.linkedin{
+    margin-left: 10px;
 }
 
 .github{
@@ -173,3 +198,7 @@ footer ul{
     height: 24px;
 }
 
+.mail{
+    width: 24px;
+    height: 24px;
+}
