@@ -238,3 +238,24 @@ footer a{
         margin-left: 10px;
     }
 }
+
+@media (max-width: 399px) {
+
+    .sobre0{
+        margin-left: -60px;
+    }
+
+
+    .wagner{
+        width: 165px;
+    }
+
+    .container{
+        margin-left: 50px;
+    }
+
+    footer ul{
+        gap: 45px;
+    }
+
+}
