@@ -7,8 +7,8 @@ body {
 
 .cabecalho{
     background-color: #00F0FF ;
-    border-radius: 10px;
-    margin: 1%;
+    width: 100%;
+    position: fixed;
 }
 
 .cabecalho ul{
@@ -25,6 +25,13 @@ body {
     text-decoration: none;
     font-family: 'Poppins', serif;
     font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+.cabecalho a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .wagner{
@@ -122,6 +129,7 @@ section{
     text-align: center;
     font-family: 'Source Code Pro', serif;
     color: #00F0FF;
+    margin-bottom: 5px;
 }
 
 .projeto1desc{
@@ -141,13 +149,49 @@ section{
     border-radius: 10px;
     font-size: 15px;
     text-decoration: none;
+    transition: all 0.4s;
 }
 
 .projeto1 a:hover{
     background-color: #00F0FF;
     cursor: pointer;
-    color:#050A0E
+    color:#050A0E;
     
+}
+
+/* Devlinks */
+
+.devlinks{
+    width: 92%;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+}
+
+.projeto2desc{
+    font-family: 'Source Code Pro', serif;
+    text-align: justify;
+    font-size: 15px;
+    color: #00F0FF;
+    margin-bottom: 35px;
+}
+
+.projeto2 a{
+    font-family: 'Source Code Pro', serif;
+    margin-left: 31%;
+    border: 2px solid #00F0FF;
+    color: #00F0FF;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.projeto2 a:hover{
+    background-color: #00f0ff;
+    cursor: pointer;
+    color:#050A0E;
 }
 
 .projeto2,.projeto3 {
@@ -183,17 +227,25 @@ footer a{
 
 .linkedin{
     margin-left: 10px;
+    transition: all 0.4s;
+    border-radius: 50%;
+    padding: 10px;
 }
 
-.github{
-    width: 24px;
-    height: 24px;
+.linkedin:hover{
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-.mail{
-    width: 24px;
-    height: 24px;
+.links{
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.4s;
 }
+
+.links:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
 
 @media (max-width: 600px) {
 
